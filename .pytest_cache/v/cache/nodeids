@@ -1,7 +1,0 @@
-[
-  "tests/test_htmlprinter.py::TestHtmlPrinter::test_code",
-  "tests/test_htmlprinter.py::TestHtmlPrinter::test_encode",
-  "tests/test_htmlprinter.py::TestHtmlPrinter::test_html_exc",
-  "tests/test_htmlprinter.py::TestHtmlPrinter::test_nltobr",
-  "tests/test_htmlprinter.py::TestHtmlPrinter::test_tag"
-]
