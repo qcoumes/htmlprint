@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
-#  test_htmlprinter.py
+#  test_htmlprint.py
 #
 
 
-import unittest, htmlprinter as h
+import unittest, htmlprint as h
 
 
 class TestHtmlPrinter(unittest.TestCase):

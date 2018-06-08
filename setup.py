@@ -25,14 +25,14 @@ long_description = (
 )
 
 setup(
-    name='htmlprinter',
+    name='htmlprint',
     version='0.1.0',
     description='HTML Printer',
     long_description=long_description,
     author='Coumes Quentin',
     author_email='coumes.quentin@gmail.com',
-    url='https://github.com/qcoumes/htmlprinter',
-    packages=['htmlprinter'],
+    url='https://github.com/qcoumes/htmlprint',
+    packages=['htmlprint'],
     install_requires=[],
     classifiers=CLASSIFIERS
 )
