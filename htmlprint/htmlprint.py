@@ -51,7 +51,9 @@ def code(string):
         + "white-space: -moz-pre-wrap;"
         + "white-space: -pre-wrap;"
         + "white-space: -o-pre-wrap;"
-        + 'word-wrap: break-word;'
+        + "word-wrap: break-word;'"
+        + "padding: 10px;"
+        + "margin: 0px;"
         + '"><code>' + string + "</code></pre>"
     )
 
