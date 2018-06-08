@@ -1,0 +1,34 @@
+{
+  "/home/sedin/htmlprinter/htmlprinter/__init__.py": [
+    1528449434.5916214,
+    [
+      "W293",
+      "W503",
+      "E401"
+    ]
+  ],
+  "/home/sedin/htmlprinter/htmlprinter/htmlprinter.py": [
+    1528450394.4528666,
+    [
+      "W293",
+      "W503",
+      "E401"
+    ]
+  ],
+  "/home/sedin/htmlprinter/tests/__init__.py": [
+    1525447543.0,
+    [
+      "W293",
+      "W503",
+      "E401"
+    ]
+  ],
+  "/home/sedin/htmlprinter/tests/test_htmlprinter.py": [
+    1528449978.1587412,
+    [
+      "W293",
+      "W503",
+      "E401"
+    ]
+  ]
+}
