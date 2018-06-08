@@ -5,8 +5,8 @@
 #
 
 from html.entities import html5
-import traceback
 
+import traceback
 
 
 def encode(string):
@@ -15,8 +15,8 @@ def encode(string):
     string = string.replace('&', '&amp;')
     string = string.replace(';', '&semi;')
     for k, v in html5.items():
-        if k[-1] == ';' and k[0].islower() and not 'amp' in k and  not 'semi' in k:
-            string = string.replace(v, '&'+k)
+        if k[-1] == ';' and k[0].islower() and 'amp' not in k and 'semi' not in k:
+            string = string.replace(v, '&' + k)
     return string
 
 
