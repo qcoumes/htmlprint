@@ -53,8 +53,8 @@ def code(string):
         + "white-space: -o-pre-wrap;"
         + "word-wrap: break-word;"
         + "padding: 5px;"
-        + "margin: 0px;"
-        + "><code>" + string + "</code></pre>"
+        + "margin: 5px 0 0 0;"
+        + '"><code>' + string + "</code></pre>"
     )
 
 
