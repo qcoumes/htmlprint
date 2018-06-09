@@ -54,7 +54,7 @@ def code(string):
         + "word-wrap: break-word;"
         + "padding: 5px;"
         + "margin: 5px 0 0 0;"
-        + '"><code>' + string + "</code></pre>"
+        + '"><code>' + encode(string) + "</code></pre>"
     )
 
 
