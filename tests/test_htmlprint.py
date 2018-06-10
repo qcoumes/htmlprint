@@ -40,7 +40,7 @@ class TestHtmlPrinter(unittest.TestCase):
     def test_code(self):
         s = h.code("def sqrt(x): return x*x")
         print(s)
-        self.assertTrue('def sqrt(x): return x*x' in s)
+        self.assertTrue('def sqrt&lpar;x&rpar;&colon; return x&midast;x' in s)
         self.assertTrue('<code' in s)
         self.assertTrue('<pre' in s)
         self.assertTrue('</code>' in s)
