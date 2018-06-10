@@ -52,7 +52,7 @@ class TestHtmlPrinter(unittest.TestCase):
             raise ValueError("This is a test")
         except:
             s = h.html_exc()
-            self.assertTrue('ValueError: This is a test' in s)
+            self.assertTrue('ValueError&colon; This is a test' in s)
             self.assertTrue('<code' in s)
             self.assertTrue('<pre' in s)
             self.assertTrue('</code>' in s)
