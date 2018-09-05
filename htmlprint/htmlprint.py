@@ -44,7 +44,6 @@ def nltobr(string):
 
 def code(string):
     """Return the surrounded string with a wrapping <pre> and <code> tag."""
-    
     return (
         '<pre style="'
         + "white-space: pre-wrap;"
@@ -55,7 +54,7 @@ def code(string):
         + "padding: 5px;"
         + "margin: 5px 0 0 0;"
         + '"><code>' + encode(string) + "</code></pre>"
-    )
+    ) if string else ""
 
 
 def html_exc(limit=None, chain=True):
