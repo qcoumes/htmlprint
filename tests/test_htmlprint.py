@@ -40,8 +40,7 @@ class TestHtmlPrinter(unittest.TestCase):
     def test_code(self):
         s = h.code("def sqrt(x): return x*x")
         print(s)
-        self.assertTrue('def sqrt&lpar;x&rpar;&colon; return x&midast;x' in s
-                     or 'def sqrt&lpar;x&rpar;&colon; return x&ast;x' in s)
+        self.assertIn("def sqrt(x): return x*x", s)
         self.assertTrue('<code' in s)
         self.assertTrue('<pre' in s)
         self.assertTrue('</code>' in s)
@@ -53,7 +52,7 @@ class TestHtmlPrinter(unittest.TestCase):
             raise ValueError("This is a test")
         except:
             s = h.html_exc()
-            self.assertTrue('ValueError&colon; This is a test' in s)
+            self.assertTrue('ValueError: This is a test' in s)
             self.assertTrue('<code' in s)
             self.assertTrue('<pre' in s)
             self.assertTrue('</code>' in s)
